@@ -1,59 +1,60 @@
 {
-  "name": "gatsby-portfolio",
-  "private": true,
-  "description": "A simple personal & portfolio template",
+  "name": "portfolio-starter",
   "version": "0.1.0",
-  "author": "AbdelAli <abdali.dahir@gmail.com>",
-  "dependencies": {
-    "gatsby": "^2.23.3",
-    "gatsby-image": "^2.4.7",
-    "gatsby-plugin-google-analytics": "^2.3.13",
-    "gatsby-plugin-manifest": "^2.4.11",
-    "gatsby-plugin-offline": "^3.2.9",
-    "gatsby-plugin-react-helmet": "^3.3.4",
-    "gatsby-plugin-sharp": "^2.6.11",
-    "gatsby-plugin-styled-components": "^3.3.10",
-    "gatsby-remark-copy-linked-files": "^2.3.10",
-    "gatsby-remark-images": "^3.3.17",
-    "gatsby-remark-prismjs": "^3.5.10",
-    "gatsby-remark-responsive-iframe": "^2.4.10",
-    "gatsby-remark-smartypants": "^2.3.9",
-    "gatsby-source-filesystem": "^2.3.11",
-    "gatsby-source-github-api": "^0.2.1",
-    "gatsby-transformer-remark": "^2.8.27",
-    "gatsby-transformer-sharp": "^2.5.5",
-    "node-sass": "^4.14.1",
-    "prismjs": "^1.20.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-feather": "^2.0.8",
-    "react-github-btn": "^1.2.0",
-    "react-github-button": "^0.1.11",
-    "react-helmet": "^6.1.0",
-    "styled-components": "^5.1.1"
-  },
-  "devDependencies": {
-    "prettier": "2.0.5"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "description": "A starter kit for static portfolio sites",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AbdaliDahir/gatsby-portfolio"
+    "url": "git+https://github.com/sb-ph/portfolio-starter.git"
   },
+  "keywords": [
+    "static-site-generator",
+    "static-site",
+    "ssg",
+    "website",
+    "blog",
+    "templates",
+    "generator",
+    "framework",
+    "eleventy",
+    "11ty",
+    "html",
+    "markdown",
+    "liquid",
+    "nunjucks",
+    "portfolio",
+    "handlebars",
+    "mustache",
+    "ejs"
+  ],
+  "author": {
+    "name": "Sam Baldwin",
+    "email": "mail@sambaldwin.info",
+    "url": "https://sambaldwin.info/"
+  },
+  "contributors": [
+    {
+      "name": "Piper Haywood",
+      "email": "mail@piperhaywood.com",
+      "url": "https://piperhaywood.com/"
+    }
+  ],
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AbdaliDahir/gatsby-portfolio/issues"
+    "url": "https://github.com/sb-ph/portfolio-starter/issues"
+  },
+  "homepage": "https://github.com/sb-ph/portfolio-starter#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-navigation": "^0.1.5",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "luxon": "^1.22.2",
+    "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^5.2.5"
   }
 }
