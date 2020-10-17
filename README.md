@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f4455669-0ce8-40ea-8ff5-5c31f0aadfa5/deploy-status)](https://app.netlify.com/sites/skeleventy/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c5440173-145b-42d8-b87d-e1a34a28d020/deploy-status)](https://app.netlify.com/sites/kind-cray-32943c/deploys)
 
 # Skeleventy
 
