@@ -64,5 +64,4 @@ module.exports = eleventyConfig => {
             data: 'globals'
         }
     }
-
 }
